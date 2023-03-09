@@ -63,6 +63,7 @@ public class Main {
             JSONObject dataObject = (JSONObject) new JSONParser().parse(String.valueOf(strData));
             System.out.println(dataObject);
             System.out.println(dataObject.get("solar_lat"));
+            System.out.println(dataObject.get("name"));
         }
         else{
             System.out.println("Error");
